@@ -9,7 +9,9 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', 'A simple Test', 'https://www.seriouseats.com/2020/05/20200504-vegetable-pancakes-sho-spaeth1.jpg')
+    // tslint:disable-next-line: max-line-length
+    new Recipe('Chicken Wings', 'A simple Test', 'https://www.seriouseats.com/2019/07/20190618-grilled-turkish-chicken-wings-vicky-wasik-13-1500x1125.jpg'),
+    new Recipe('Ramen', 'A simple Test', 'https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/10/pumpkin-pad-thai-recipe.jpg')
   ];
 
   constructor() { }
